@@ -172,6 +172,8 @@ LOCAL_SRC_FILES := \
     upstream-freebsd/lib/msun/src/s_significand.c \
     upstream-freebsd/lib/msun/src/s_significandf.c \
     upstream-freebsd/lib/msun/src/s_sin.c \
+    upstream-freebsd/lib/msun/src/s_sincos.c \
+    upstream-freebsd/lib/msun/src/s_sincosf.c \
     upstream-freebsd/lib/msun/src/s_sinf.c \
     upstream-freebsd/lib/msun/src/s_tan.c \
     upstream-freebsd/lib/msun/src/s_tanf.c \
@@ -226,6 +228,7 @@ LOCAL_SRC_FILES_64 := \
     upstream-freebsd/lib/msun/src/s_rintl.c \
     upstream-freebsd/lib/msun/src/s_roundl.c \
     upstream-freebsd/lib/msun/src/s_scalbnl.c \
+    upstream-freebsd/lib/msun/src/s_sincosl.c \
     upstream-freebsd/lib/msun/src/e_sinhl.c \
     upstream-freebsd/lib/msun/src/s_sinl.c \
     upstream-freebsd/lib/msun/src/s_tanhl.c \
@@ -253,7 +256,6 @@ LOCAL_SRC_FILES += \
 # Functionality not in the BSDs.
 LOCAL_SRC_FILES += \
     significandl.c \
-    sincos.c \
 
 # Modified versions of BSD code.
 LOCAL_SRC_FILES += \
